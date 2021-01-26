@@ -38,10 +38,10 @@ public class EchoServer {
                         }
                     }
 
-                    System.out.println("Server stopped");
+                    System.out.println("Server stopped!");
                 } catch (IOException e) {
                     clientSocket.close();
-                    System.out.println("Client disconnected");
+                    System.out.println("Client disconnected!");
                 }
             }
         } catch (IOException e) {

@@ -70,7 +70,7 @@ public class ChatController {
 
     @FXML
     void showAbout() {
-        System.out.println("about");
+        System.out.println("About");
     }
 
     @FXML
