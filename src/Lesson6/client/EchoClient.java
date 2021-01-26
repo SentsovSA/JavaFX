@@ -33,7 +33,7 @@ public class EchoClient extends Application {
 
         network.waitMessage(chatController);
 
-        Thread thread1 = new Thread(() -> {
+        Thread thread = new Thread(() -> {
             Scanner scanner = new Scanner(System.in);
             String serverMessage = scanner.next();
             System.out.println("Ответ сервера: " + serverMessage);

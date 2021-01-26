@@ -56,7 +56,7 @@ public class Network {
                     Platform.runLater(() -> chatController.addMessageToList(message));
                 }
             } catch (IOException e) {
-                System.out.println("Connection error");
+                System.out.println("Connection error!");
             }
         });
 
